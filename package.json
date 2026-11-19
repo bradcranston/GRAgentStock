@@ -23,5 +23,9 @@
     "open": "^8.2.1",
     "parcel": "^2.8.1",
     "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "datatables.net": "^2.3.2",
+    "datatables.net-dt": "^2.3.2"
   }
 }

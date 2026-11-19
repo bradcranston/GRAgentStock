@@ -7,7 +7,7 @@ body {
   color: #000;
   background-color: #fff;
   margin: 10;
-  overflow: hidden;
+  overflow: auto;
 }
 
 p{
@@ -36,9 +36,8 @@ h1 {
 }
 
 button {
-  padding: 5px 9px 5px 9px;
   border-radius: 3px;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #0091CE;
   background-color: #0091CE;
   color: #fff;

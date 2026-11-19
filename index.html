@@ -5,14 +5,15 @@
     <style>
       @import "./src/style.css";
     </style>
+    <!-- DataTables CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.min.css" />
     <title>JSDev</title>
   </head>
   <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
+    <div id="gasket-table-container"></div>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
     <script type="module">
       import "./src/index.js";
     </script>
